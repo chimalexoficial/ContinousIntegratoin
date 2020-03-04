@@ -20,9 +20,5 @@ router.get('/users/:email', (req, res) => {
 
 })
 
-router.post('/users',(req,res) => {
-    
-    
-    })
 
 module.exports = router;
