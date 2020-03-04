@@ -1,0 +1,23 @@
+function len(valor) {
+    return valor.length
+}
+
+
+test('Solo para ver si funciona test', ()=>{
+    expect(4).toBe(4)
+})
+
+test('Funciona len', ()=>{
+    let test = [1,4,'a'];
+    expect(len(test)).toBeGreaterThanOrEqual(0)
+    expect(len(test)).toBe(3)
+    expect(len(test)).toBeDefined();
+})
+/*
+test('codigo asyncrona', (done)=>{
+    setTimeout(()=>{
+        let res = 'Hola'
+        expect(res).toBe('Hola2')
+        done();
+    },2000)
+})*/
